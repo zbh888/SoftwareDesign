@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeFragment">
+
+    <ca.uwaterloo.cs349.Draw
+        android:id="@+id/drawinMain"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/button11"
+        android:background="@color/cardview_light_background"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <ca.uwaterloo.cs349.Show
+        android:id="@+id/imageView"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_toLeftOf="@id/imageView2"
+        android:layout_marginRight="20dp"
+        android:background="@color/cardview_light_background"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <ca.uwaterloo.cs349.Show
+        android:id="@+id/imageView2"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/cardview_light_background"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <ca.uwaterloo.cs349.Show
+        android:id="@+id/imageView3"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/imageView2"
+        android:background="@color/cardview_light_background"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignLeft="@id/imageView"
+        android:text="Score" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:text="Score" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/imageView3"
+        android:layout_alignRight="@id/imageView3"
+        android:text="Score" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:background="#ACECAE"
+        android:text="Analyze" />
+
+
+</RelativeLayout>

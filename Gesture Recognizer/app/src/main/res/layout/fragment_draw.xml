@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+    android:background="@color/cardview_dark_background"
+android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameenter"
+        android:layout_alignBottom="@+id/nameenter"
+        android:layout_toLeftOf="@+id/nameenter"
+        android:layout_toStartOf="@+id/nameenter"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="end"
+        android:text="name" />
+
+    <EditText
+        android:id="@+id/nameenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cancel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="">
+        <requestFocus/>
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="Save"
+        android:text="Saving" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:onClick="Cancel"
+        android:text="Cancel" />
+
+    <ca.uwaterloo.cs349.Draw
+        android:id="@+id/drawing"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/nameenter"
+        android:background="@color/cardview_light_background"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+</RelativeLayout>
