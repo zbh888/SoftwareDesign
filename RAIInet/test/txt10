@@ -1,0 +1,32 @@
+move h down
+move H up
+ability 2 4 4
+move l right
+ability 1 L
+move L left
+move h right
+move H right
+move p right
+move O down
+move h down
+ability 1 H
+move H up
+ability 1 p
+move p down
+move L left
+move h down
+move D up
+move m right
+move M down
+ability 4 M
+move h down
+move H left
+move m right
+move M left
+move g down
+move H right
+move m right
+move d down
+move H right
+quit
+

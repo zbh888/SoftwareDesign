@@ -1,0 +1,36 @@
+ability 6 a
+move a down
+ability 1 E
+move E up
+ability 1 l
+move l up
+move I left
+move a down
+move E up
+move m right
+move I up
+ability 7 f
+move a down
+move D left
+move m right
+move L up
+move a down
+move D right
+move p right
+move P left
+move a left
+move A up
+ability 7 n
+move p down
+move P down
+move d down
+move G right
+move p down
+move P down
+move h down
+move E left
+move m up
+ability 1 L
+move L up
+quit
+
