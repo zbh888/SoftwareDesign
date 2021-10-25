@@ -1,6 +1,6 @@
 ## Tree command
 
-A command line tool
+A command line tool, could be treated as a simple user interface, archived here.
 
 ## Game of Life
 
