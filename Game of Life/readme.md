@@ -2,8 +2,6 @@ Game of Life
 
 Bohan Zhang
 
-20702017
-
 java version "13.0.1" 2019-10-15
 
 Java(TM) SE Runtime Environment (build 13.0.1+9)
