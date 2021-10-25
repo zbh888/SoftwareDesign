@@ -1,7 +1,3 @@
-b327zhan
-
-20702017
-
 Pixel 3 API 30
 
 Android 11.0 (R) 
