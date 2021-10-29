@@ -16,3 +16,7 @@ The test file or game description tells you how to play it.
 
 There is UML file and report for you to get to know it.
 
+## Command line interface
+
+`move`
+
